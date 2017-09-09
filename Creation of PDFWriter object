@@ -1,0 +1,3 @@
+PdfWriter writer = PdfWriter.getInstance(document, \ 
+new FileOutputStream("C:\\ITextTest.pdf")); 
+document.open();
