@@ -1,0 +1,7 @@
+Being a pure Java library, iText comes in the form of a JAR file. Once you have downloaded the library (let's say, at path C:\temp), the following steps will configure the iText library in an Eclipse environment:
+
+Create a new Java project in Eclipse named iText.
+Right-click on the iText project in Package Explorer view and select Properties.
+Click Java Build Path. On the Libraries tab, click Add External JARs.
+Browse to the C:\temp directory and select the itext-5.3.0.jar in this directory.
+Click OK.
