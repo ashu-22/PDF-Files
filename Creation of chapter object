@@ -1,0 +1,3 @@
+Paragraph title1 = new Paragraph("Chapter 1",FontFactory.getFont(FontFactory.HELVETICA,18, Font.BOLDITALIC, new CMYKColor(0, 255, 255,17)));
+Chapter chapter1 = new Chapter(title1, 1);
+chapter1.setNumberDepth(0);
