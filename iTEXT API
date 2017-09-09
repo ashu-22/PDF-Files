@@ -1,0 +1,9 @@
+iTEXT API is the main document for class using the PDF document generation.There are some different kinds of API that can used for
+describing the iTEXT API.
+
+com.itextpdf.text.Paragraph —This class represents an indented paragraph.
+com.itextpdf.text.Chapter —This class represents a chapter in the PDF document. It is created using a Paragraph as title and an int as chapter number.
+com.itextpdf.text.Font —This class contains all specifications of a font, such as family of font, size, style, and color. Various fonts are declared as static constants in this class.
+com.itextpdf.text.List —This class represents a list, which, in turn, contains a number of ListItems.
+com.itextpdf.text.pdf.PDFPTable —This is a table that can be put at an absolute position but can also be added to the document as the class Table.
+com.itextpdf.text.Anchor —An Anchor can be a reference or a destination of a reference.
