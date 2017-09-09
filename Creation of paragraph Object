@@ -1,0 +1,8 @@
+Anchor anchorTarget = new Anchor("First page of the document.");
+anchorTarget.setName("BackToTop");
+Paragraph paragraph1 = new Paragraph();
+paragraph1.setSpacingBefore(50);
+paragraph1.add(anchorTarget);
+document.add(paragraph1); 
+document.add(new Paragraph("Some more text on the \first page with different color and font type.", 
+FontFactory.getFont(FontFactory.COURIER, 14, Font.BOLD, new CMYKColor(0, 255, 0, 0))))
