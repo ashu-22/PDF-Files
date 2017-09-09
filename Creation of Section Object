@@ -1,0 +1,6 @@
+Paragraph title11 = new Paragraph("This is Section 1 in Chapter 1", FontFactory.getFont(FontFactory.HELVETICA, 16, Font.BOLD, new CMYKColor(0, 255, 255,17)));
+Section section1 = chapter1.addSection(title11);
+Paragraph someSectionText = new Paragraph("This text comes as part of section 1 of chapter 1."); 
+section1.add(someSectionText); 
+someSectionText = new Paragraph("Following is a 3 X 2 table."); 
+section1.add(someSectionText);
