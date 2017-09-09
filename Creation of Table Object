@@ -1,0 +1,13 @@
+PdfPTable t = new PdfPTable(3);
+t.setSpacingBefore(25);
+t.setSpacingAfter(25);
+PdfPCell c1 = new PdfPCell(new Phrase("Header1"));  
+t.addCell(c1);
+PdfPCell c2 = new PdfPCell(new Phrase("Header2"));
+t.addCell(c2);
+PdfPCell c3 = new PdfPCell(new Phrase("Header3"));
+t.addCell(c3);
+t.addCell("1.1");
+t.addCell("1.2");
+t.addCell("1.3");
+section1.add(t);
