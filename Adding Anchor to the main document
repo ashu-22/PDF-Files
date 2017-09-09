@@ -1,0 +1,6 @@
+Paragraph title2 = new Paragraph("Using Anchor",FontFactory.getFont(FontFactory.HELVETICA, 16, Font.BOLD, new CMYKColor(0, 255, 0, 0)));
+section1.add(title2);
+title2.setSpacingBefore(5000);
+Anchor anchor2 = new Anchor("Back To Top");
+anchor2.setReference("#BackToTop");
+section1.add(anchor2);
