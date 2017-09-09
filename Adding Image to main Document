@@ -1,0 +1,3 @@
+Image image2 = Image.getInstance("PDFLogo.bmp");
+image2.scaleAbsolute(120f, 120f);
+section1.add(image2);
