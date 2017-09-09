@@ -1,0 +1,4 @@
+List l = new List(true, false, 10); 
+l.add(new ListItem("First item of list")); 
+l.add(new ListItem("Second item of list")); 
+section1.add(l)
